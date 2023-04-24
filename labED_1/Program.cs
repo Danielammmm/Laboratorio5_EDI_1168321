@@ -32,7 +32,12 @@ namespace InmueblesGT
                 Console.WriteLine(JsonConvert.SerializeObject(recommendations));
             }
 
-          
+            // Esperar a que el usuario presione cualquier tecla antes de salir
+            Console.WriteLine("Presione cualquier tecla para salir...");
+            Console.ReadKey();
         }
+
+        // Función que obtiene las recomendaciones de apartamentos de acuerdo con los requerimientos del cliente
+       
     }
 }
