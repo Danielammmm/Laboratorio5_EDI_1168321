@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LABED_2", "LABED_2\LABED_2.pyproj", "{BA35F9D8-73AA-45FE-A629-562BCF4A15BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA35F9D8-73AA-45FE-A629-562BCF4A15BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA35F9D8-73AA-45FE-A629-562BCF4A15BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3444F8D1-6331-427C-93A7-5207B90129DF}
+	EndGlobalSection
+EndGlobal
