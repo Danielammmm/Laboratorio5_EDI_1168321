@@ -122,3 +122,82 @@ with open("C:\\Users\\danie\\onedrive\\ED!\\LABED_2\\lab2_ED\\input_challenge2.j
                         if input.input2.typeBuilder == "Houses":
 for i in range(len(input.input1)):
 if input.input1[i].builds.Houses == None:
+continue 
+        DeterminarVacio[1] = True
+        id = []
+        precio = []
+        Color = []
+
+        for j in range(len(input.input1[i].builds.Houses)):
+            house = input.input1[i].builds.Houses[j]
+            id.append(house.id)
+            precio.append(house.price)
+
+            # Asignar el número dependiendo del color de zona de riesgo.
+            if house.zoneDangerous == "Green":
+                Color.append(3)
+            elif house.zoneDangerous == "Yellow":
+                Color.append(2)
+            elif house.zoneDangerous == "Orange":
+                Color.append(1)
+            elif house.zoneDangerous == "Red":
+                Color.append(0)
+
+        DeterminarVacio[1] = False
+
+        for j in range(len(input.input1[i].builds.Houses)):
+            if Color[j] <= ColorD and precio[j] <= input.input2.budget:
+                idr[res] = id[j]
+                pricee[res] = precio[j]
+                res += 1
+
+elif input.input2.typeBuilder == "Premises":
+    totalPremises = 0
+    for i in input.input1:
+        if i.builds.Premises != None:
+            totalPremises += len(i.builds.Premises)
+
+    idr = [""] * totalPremises
+    pricee = [0.0] * totalPremises
+    res = 0
+    index = 0
+
+    for i in input.input1:
+        if i.builds.Premises != None:
+            for p in i.builds.Premises:
+                if input.input2.commercialActivity in p.commercialActivities and p.price <= input.input2.budget:
+                    idr[index] = p.id
+                    pricee[index] = p.price
+                    index += 1
+                    res += 1
+
+# Ordenar valores usando quicksort
+def Quicksort(arr, ids, left, right):
+    if left < right:
+        pivotIndex = Partition(arr, ids, left, right)
+        Quicksort(arr, ids, left, pivotIndex - 1)
+        Quicksort(arr, ids, pivotIndex + 1, right)
+
+def Partition(arr, ids, left, right):
+    pivotValue = arr[right]
+    pivotIndex = left - 1
+    for i in range(left, right):
+        if arr[i] <= pivotValue:
+            pivotIndex += 1
+            arr[i], arr[pivotIndex] = arr[pivotIndex], arr[i]
+            ids[i], ids[pivotIndex] = ids[pivotIndex], ids[i]
+    arr[pivotIndex + 1], arr[right] = arr[right], arr[pivotIndex + 1]
+    ids[pivotIndex + 1], ids[right] = ids[right], ids[pivotIndex + 1]
+    return pivotIndex + 1
+
+# Llamar a Quicksort para ordenar los arreglos
+Quicksort(pricee, idr, 0, res - 1)
+
+respuestaFinal = "["
+for i in range(res):
+    respuestaFinal += f'"{idr[i]}"'
+    if i < res - 1:
+        respuestaFinal += ","
+respuestaFinal += "]"
+
+print(respuestaFinal)
