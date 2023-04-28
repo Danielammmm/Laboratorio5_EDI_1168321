@@ -45,5 +45,33 @@ class Input2:
         self.wannaPetFriendly = wannaPetFriendly
         self.minDanger = minDanger
         
-       
+       class InputLab:
+    def __init__(self, input1: List[Input1], input2: Input2):
+        self.input1 = input1
+        self.input2 = input2
+import json
+
+with open(r"C:\Users\usuario\source\repos\lab2_ED\lab2_ED\input_challenge_lab_2.jsonl") as f:
+    json_objects = f.read().splitlines()
+
+for r in range(100):
+    input_data = json.loads(json_objects[r])
+    price = [0] * 1000
+    determinar_vacio = [False] * 3
+    color_d = 0
+    res = 0
+    idr = [''] * 1000
+
+    if input_data['input2']['typeBuilder'] == "Apartments":
+        for item in input_data['input1']:
+            if item['builds']['Apartments'] is not None:
+                pfs = [a['isPetFriendly'] for a in item['builds']['Apartments']]
+                budgets = [a['price'] for a in item['builds']['Apartments']]
+                
+                for i in range(len(item['builds']['Apartments'])):
+                    if pfs[i] == input_data['input2']['wannaPetFriendly'] and budgets[i] <= input_data['input2']['budget']:
+                        idr[res] = item['builds']['Apartments'][i]['id']
+                        price[res] = budgets[i]
+                        res += 1
+import json
 
