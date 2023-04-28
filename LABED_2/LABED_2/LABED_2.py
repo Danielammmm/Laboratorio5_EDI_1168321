@@ -25,5 +25,25 @@ class Premise:
         self.price = price
         self.contactPhone = contactPhone
         self.id = id
+class Builds:
+    def __init__(self, Premises: Optional[List[Premise]] = None, Apartments: Optional[List[Apartment]] = None, Houses: Optional[List[House]] = None):
+        self.Premises = Premises
+        self.Apartments = Apartments
+        self.Houses = Houses
 
+class Input1:
+    def __init__(self, services: Dict[str, bool], builds: Builds):
+        self.services = services
+        self.builds = builds
+
+class Input2:
+    def __init__(self, budget: float, typeBuilder: str, requiredServices: List[str], commercialActivity: Optional[str] = None, wannaPetFriendly: Optional[bool] = None, minDanger: Optional[str] = None):
+        self.budget = budget
+        self.typeBuilder = typeBuilder
+        self.requiredServices = requiredServices
+        self.commercialActivity = commercialActivity
+        self.wannaPetFriendly = wannaPetFriendly
+        self.minDanger = minDanger
+        
+       
 
