@@ -1,0 +1,17 @@
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\labED_1\labED_1\bin\Debug\net6.0\labED_1.exe
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\labED_1\labED_1\bin\Debug\net6.0\labED_1.deps.json
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\labED_1\labED_1\bin\Debug\net6.0\labED_1.runtimeconfig.json
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\labED_1\labED_1\bin\Debug\net6.0\labED_1.dll
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\labED_1\labED_1\bin\Debug\net6.0\labED_1.pdb
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\labED_1\labED_1\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\labED_1\labED_1\obj\Debug\net6.0\labED_1.csproj.AssemblyReference.cache
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\labED_1\labED_1\obj\Debug\net6.0\labED_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\labED_1\labED_1\obj\Debug\net6.0\labED_1.AssemblyInfoInputs.cache
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\labED_1\labED_1\obj\Debug\net6.0\labED_1.AssemblyInfo.cs
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\labED_1\labED_1\obj\Debug\net6.0\labED_1.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\labED_1\labED_1\obj\Debug\net6.0\labED_1.csproj.CopyComplete
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\labED_1\labED_1\obj\Debug\net6.0\labED_1.dll
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\labED_1\labED_1\obj\Debug\net6.0\refint\labED_1.dll
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\labED_1\labED_1\obj\Debug\net6.0\labED_1.pdb
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\labED_1\labED_1\obj\Debug\net6.0\labED_1.genruntimeconfig.cache
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\labED_1\labED_1\obj\Debug\net6.0\ref\labED_1.dll
