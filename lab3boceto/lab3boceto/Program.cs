@@ -17,7 +17,7 @@ using System.Linq;
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Hubo un error: " + ex.Message);
+                Console.WriteLine("ERROR: " + ex.Message);
             }
         }
 
@@ -54,5 +54,24 @@ private static int GetMaxBudget(string path)
 
                 if (budget == maxBudget) return dpiString;
             }
-            throw new ArgumentException("No se encontró DPI para el mayor presupuesto.");
+            throw new ArgumentException("No se obtuvo ninguna información.");
         }
+ private static string GenerateSignature(string path, string dpi)
+        {
+            foreach (var line in File.ReadLines(path))
+            {
+                var dpiIndex = line.IndexOf("\"dpi\": ");
+                if (dpiIndex == -1) continue;
+
+                var dpiString = line.Substring(dpiIndex + 8).Split(',', '}')[0];
+                if (dpiString != dpi) continue;
+
+                var random = new Random();
+                var signature = string.Join("", Enumerable.Range(0, 10).Select(_ => random.Next(10)));
+                return signature;
+            }
+            throw new ArgumentException("No se obtuvo ninguna información.");
+        }
+    }
+}
+
