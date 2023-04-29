@@ -1,0 +1,15 @@
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\lab3boceto\lab3boceto\bin\Debug\net6.0\lab3boceto.exe
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\lab3boceto\lab3boceto\bin\Debug\net6.0\lab3boceto.deps.json
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\lab3boceto\lab3boceto\bin\Debug\net6.0\lab3boceto.runtimeconfig.json
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\lab3boceto\lab3boceto\bin\Debug\net6.0\lab3boceto.dll
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\lab3boceto\lab3boceto\bin\Debug\net6.0\lab3boceto.pdb
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\lab3boceto\lab3boceto\obj\Debug\net6.0\lab3boceto.csproj.AssemblyReference.cache
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\lab3boceto\lab3boceto\obj\Debug\net6.0\lab3boceto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\lab3boceto\lab3boceto\obj\Debug\net6.0\lab3boceto.AssemblyInfoInputs.cache
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\lab3boceto\lab3boceto\obj\Debug\net6.0\lab3boceto.AssemblyInfo.cs
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\lab3boceto\lab3boceto\obj\Debug\net6.0\lab3boceto.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\lab3boceto\lab3boceto\obj\Debug\net6.0\lab3boceto.dll
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\lab3boceto\lab3boceto\obj\Debug\net6.0\refint\lab3boceto.dll
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\lab3boceto\lab3boceto\obj\Debug\net6.0\lab3boceto.pdb
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\lab3boceto\lab3boceto\obj\Debug\net6.0\lab3boceto.genruntimeconfig.cache
+C:\Users\danie\OneDrive\Escritorio\URL\URL\5to ciclo\Estructura de Datos I\lab3boceto\lab3boceto\obj\Debug\net6.0\ref\lab3boceto.dll
